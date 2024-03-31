@@ -1,6 +1,40 @@
-body
-{
-    color: crimson;
-    text-align: center;
+body {
+    color: #333;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    padding: 1em 0;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+main {
+    padding: 20px;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#post h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    #container {
+        width: 95%;
+        padding: 10px;
+    }
 }
