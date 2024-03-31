@@ -1,40 +1,39 @@
 body {
     color: #333;
-    text-align: left;
+    text-align: center; /* Cambiado a centro para dar un aspecto más estilizado */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
-
-header, footer {
-    padding: 1em 0;
-    text-align: center;
-    background-color: #e2e2e2;
-}
-
-main {
-    padding: 20px;
+    background-color: #f4f4f4; /* Fondo suave para el cuerpo de la página */
 }
 
 #container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
+    width: 70%;
+    padding: 1em;
+    text-align: center; /* Alineación centrada para contenido dentro del contenedor */
     border: 1px solid #ddd;
+    margin: 20px auto; /* Añadido espacio arriba y abajo del contenedor */
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para el contenedor */
 }
 
-#post h2 {
-    font-size: 24px;
-    color: #333;
+#rama1 {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    color: #007bff; /* Un azul suave para el texto */
+    padding-bottom: 0.5em; /* Espacio debajo del título */
+    border-bottom: 2px solid #007bff; /* Línea debajo del texto */
+    margin-bottom: 1em; /* Espacio después de la línea */
 }
 
-@media (max-width: 768px) {
-    #container {
-        width: 95%;
-        padding: 10px;
-    }
+#container h1 {
+    font-size: 22px;
+    color: #333; /* Más oscuro para destacar */
+}
+
+#post p {
+    font-size: 16px;
+    line-height: 1.6; /* Espaciado de línea para mejor lectura */
+    color: #666; /* Color de texto suavizado */
 }
